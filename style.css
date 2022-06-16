@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: inherit; */
+}
+
+body {
+    background-color: rgb(34, 24, 24);
+}
+
+
+/* box {
+    background: ghostwhite;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    margin: 390px;
+    width: 800px;
+    height: 400px;
+} */
+
+main {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    /* font-family: [Lexend Deca](https: //fonts.google.com/specimen/Lexend+Deca) */
+    /* font-weight: 400 */
+    /* font-size: 20px; */
+    /* border: 6px solid rgb(226, 232, 226); */
+    padding: 170px;
+    /* margin-bottom: 130px; */
+    /* width: 1000px; */
+    /* height: 400px; */
+    width: 60%;
+    /* marginauto means equal spaces left en right , it dint handle spaces up en down */
+    margin: auto;
+    /* next we want main contents to hv equal space in all angle left,right,up,down,ts were flex coms in */
+    /* so display flex divide div tag(puts element oposite each other) in to 2 */
+    /* note:flex by defot is horizontal/row, so if l want to move my boxes.items difrent direction l need to give it a direction attribute */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+button {
+    margin-left: 60px;
+    padding: 1.50em;
+    /* margin:auto; */
+    border-radius: 2em;
+    color: rgb(142, 131, 131);
+}
+
+.top-content {
+    background-color: white;
+    /* padding is the space inside the container */
+    padding: 2em;
+    /* margin is the space outside the container */
+    /* margin: 2em; */
+    width: 100%;
+}
+
+.top-content h3 {
+    color: aqua;
+    font-size: 20px;
+    padding: 20px;
+    font-size: bold;
+}
+
+.top-content .p-top {
+    font-weight: bold;
+    color: rgb(212, 187, 24);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.bottom-content {
+    display: flex;
+    width: 100%;
+}
+
+
+/* for 2boxes 1 & 3 */
+
+.bottom-content .top-bottom {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+}
+
+.top-bottom2 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+}
+
+
+/* SUVS style */
+
+.bottom-content .second-bottom {
+    background-color: rgb(30, 114, 114);
+    padding: 2em;
+    width: 100%;
+}
+
+.p-content {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+}
